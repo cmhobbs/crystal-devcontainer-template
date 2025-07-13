@@ -34,15 +34,9 @@ find . -type f -name "*.yml" | xargs sed -i 's/YOUR_EMAIL/your@email.com/g'
 devpod up . --provider docker
 ```
 
-6. **Connect with Zed**:
-```bash
-devpod ssh . --command "code-server --bind-addr 0.0.0.0:8080"
-```
-Then connect Zed to the running container.
-
 ## Initialize Crystal Project
 
-7. **Inside the devcontainer**:
+6. **Inside the devcontainer**:
 ```bash
 shards install
 crystal build src/main.cr
