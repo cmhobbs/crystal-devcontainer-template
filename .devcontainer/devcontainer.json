@@ -1,0 +1,13 @@
+{
+  "name": "Crystal Development",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "remoteUser": "vscode",
+  "workspaceFolder": "/workspaces/PROJECT_NAME",
+  "customizations": {
+    "vscode": {
+      "extensions": ["crystal-lang-tools.crystal-lang"]
+    }
+  }
+}
