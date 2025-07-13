@@ -4,7 +4,7 @@ version: 0.1.0
 authors:
   - YOUR_NAME <YOUR_EMAIL>
 
-crystal: 1.0.0
+crystal: 1.16.3
 
 development_dependencies:
   ameba:
